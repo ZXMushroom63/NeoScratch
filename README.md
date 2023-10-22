@@ -10,7 +10,7 @@ How to use: go on a scratch studio that allows anyone to add projects while logg
 It cycles through the provided studio & project ids, removing and adding each project to each studio. This causes you projects to always appear first.
 
 ### How does it work?
-It overrides `XMLHttpRequest.prototype.setRequestHeader` to get you login token. (This means that a modified version of this script could potentially delete your Scratch account and all of its projects.)
+It overrides `XMLHttpRequest.prototype.setRequestHeader` to get your login token. (This means that a modified version of this script could potentially delete your Scratch account and all of its projects.)
 Then, it sends fetch requests to `https://api.scratch.mit.edu/studios/{studioId}/project/{projectId}` with either `DELETE` or `POST`, while providing the token in a header.
 
 ### How do I customize it?
