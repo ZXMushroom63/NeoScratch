@@ -3,7 +3,7 @@ var studioIds = ["14640", "280375", "279942", "209938", "33568230", "33823677", 
 var projectIds = []; //Target projects to repost
 var frequency = 20; //Seconds per repost.
 var randomDelay = 5; //Random offset (seconds)
-var neoClearConsole = true;
+var neoClearConsole = true; //Should we clear the console per every iteration?
 
 console.log("[Script] Run NeoScratch() in the console to start.");
 function NeoScratch() {
