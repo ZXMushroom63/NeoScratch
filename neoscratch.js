@@ -1,5 +1,5 @@
 // NeoScratch Project Advertisement Script by ZXMushroom63
-var studioIds = ["14640", "280375", "279942", "209938", "33568230", "33823677", "33149788", "33289675", "33682189", "33224665", "15471207", "218753", "216975", "216346", "33805227", "33286134"]; //Target studios to repost on
+var studioIds = ["14640", "280375", "279942", "209938", "33568230", "33823677", "33149788", "33289675", "33682189", "33224665", "15471207", "218753", "216975", "216346", "33805227", "33286134", "33697591"]; //Target studios to repost on
 var projectIds = []; //Target projects to repost
 var frequency = 20; //Seconds per repost.
 var randomDelay = 5; //Random offset (seconds)
